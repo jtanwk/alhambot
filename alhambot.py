@@ -49,7 +49,7 @@ def matches_al_ham(text):
                               int(pattern[4]) > 0])
             off_stresses = all([int(pattern[1] == 0), int(pattern[3]) == 0,
                                int(pattern[5]) == 0])
-            return on_stresses # and off_stresses
+            return on_stresses and off_stresses
 
     return get_structure(text)
 
