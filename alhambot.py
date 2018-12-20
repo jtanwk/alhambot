@@ -45,8 +45,7 @@ def matches_al_ham(text):
         if len(pattern) != 7:
             return False
         else:
-            on_stresses = all(int(pattern[0]) > 0, int(pattern[2]) > 0,
-                              int(pattern[4]) > 0)
+            on_stresses = all(int(pattern[0]) > 0, int(pattern[4]) > 0)
             off_stresses = all(int(pattern[1] == 0), int(pattern[3]) == 0,
                                int(pattern[5]) == 0)
             return on_stresses # and off_stresses
