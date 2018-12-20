@@ -33,8 +33,8 @@ def matches_al_ham(text):
             raise KeyError('Word is not recognized')
 
     def get_structure(text):
-        '''Returns True if stresses are on 1st and 4th syllables, and 1st
-        syllable begins with "A".'''
+        '''Returns True if text has 7 syllables, and stresses are on 1st and 5th
+        syllables.'''
 
         # Remove all non-alphanumeric and non-space characters
         text = re.sub(r'[^0-9a-zA-Z ]', '', text)
@@ -49,7 +49,7 @@ def matches_al_ham(text):
                               int(pattern[4]) > 0)
             off_stresses = all(int(pattern[1] == 0), int(pattern[3]) == 0,
                                int(pattern[5]) == 0)
-            return on_stresses and off_stresses
+            return on_stresses # and off_stresses
 
     return get_structure(text)
 
