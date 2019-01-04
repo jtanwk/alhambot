@@ -3,6 +3,8 @@
 
 https://twitter.com/mynameisa15n
 
+_Edit: Jan 4, 2019. The bot has been suspended by Twitter, and it's remarkably difficult to find out why specifically. My guess is that it's bad form to quote complete strangers' tweets who aren't following the bot's account. This project is on hold until a sustainable way forward is determined._
+
 This project is a Twitter bot that identifies and retweets tweets that match the syllable structure and stress pattern of Lin-Manuel Miranda's introductory line in the eponymous Broadway musical, *Alexander Hamilton*.
 
 I'm attempting a few things for the first time here, including:
@@ -50,7 +52,7 @@ And that's it! Once the bot notices a tweet that matches those criteria, it'll r
 # What's next?
 
 Potential refinements and/or extensions that are way outside my current abilities:
-- Refining the criterion that make a phrase sound like another phrase. This requires a deeper and more technical knowledge of linguistics that I currently have.
+- Refining the criterion that make a phrase sound like another phrase (e.g. incorporating Jaro-Winkler scores or Levenshtein distance as comparison metrics). This requires a deeper and more technical knowledge of computational linguistics that I currently have.
 - Actually calculating syllables by algorithm rather than with a dictionary. Maybe a good NLP machine learning problem?
 - Extend syllable counting to non-word words (e.g. the "II" in "Boyz II Men" is ideally parsed as one syllable).
 - Expand phrase identification beyond the text in tweets to look at *words in images* attached to tweets. Requires some knowledge of computer vision and a text extractor program. (Just you wait, just you wait...)
