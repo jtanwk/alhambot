@@ -3,7 +3,7 @@
 
 https://twitter.com/mynameisa15n
 
-_Edit: Jan 4, 2019. The bot has been suspended by Twitter, and it's remarkably difficult to find out why specifically. My guess is that it's bad form to quote complete strangers' tweets who aren't following the bot's account. This project is on hold until a sustainable way forward is determined._
+_Edit: Jan 4, 2019. The bot has been suspended by Twitter, and it's remarkably difficult to find out why. My guess is that it's bad form to quote complete strangers' tweets if they aren't already following the bot's account. This project is on hold until a sustainable way forward can be determined._
 
 This project is a Twitter bot that identifies and retweets tweets that match the syllable structure and stress pattern of Lin-Manuel Miranda's introductory line in the eponymous Broadway musical, *Alexander Hamilton*.
 
